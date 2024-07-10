@@ -3,19 +3,19 @@
 var book1;
 var book2;
 
-book1 = {
+bookOne = {
     title : "The Hobbit",
     author : "J. R. R. Tolkien",
     year : 1945
 };
 
-book2 = {
+bookSecond = {
 	title : "Northern Lights",
 	author : "Philip Pullman",
     year : 1911
 };
-console.log(book1);
-console.log(book2);
+console.log(bookOne);
+console.log(bookSecond);
 
 
 
