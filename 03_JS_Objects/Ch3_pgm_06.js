@@ -9,9 +9,9 @@ book = {
     title : bookName
 };
 console.log(book);
-book1 = 
+bookOne = 
 { title: 'The Adventures of Tom Sawyer' };
-book2 =
+bookSecond =
 { title: 'Moby-Dick' };
 console.log(book);
 
