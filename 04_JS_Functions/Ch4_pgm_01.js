@@ -14,16 +14,16 @@ console.log("Actors: " + movie1.actors);
 console.log("Directors: " + movie1.directors);
 console.log("------------------------------");
 
-var movie2;
-movie2 = {
+var secondMovie;
+secondMovie = {
   title : "Titanic",
   actors : "Leonardo DiCaprio, Kate Winslet",
   director : "James Cameron"
 };
-console.log("Movie information for " + movie2.title);
+console.log("Movie information for " + secondMovie.title);
 console.log("------------------------------");
-console.log("Actors: " + movie2.actors);
-console.log("Director: " + movie2.director);
+console.log("Actors: " + secondMovie.actors);
+console.log("Director: " + secondMovie2.director);
 console.log("------------------------------");
 
 /* Further Adventures
