@@ -3,7 +3,7 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Welcome to\n JavaScript!");
+	console.log("Welcome to\n JavaScript Website!");
 };
 
 sayHello();
