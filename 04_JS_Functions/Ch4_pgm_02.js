@@ -40,16 +40,16 @@ console.log("Actors: " + movie3.actors);
 console.log("Directors: " + movie3.directors);
 console.log("------------------------------");
 
-var movie4;
-movie4 = {
+var movieFour;
+movieFour = {
   title : "Titanic",
   actors : "Leonardo DiCaprio, Kate Winslet",
   director : "James Cameron"
 };
-console.log("Movie information for " + movie4.title);
+console.log("Movie information for " + movieFour.title);
 console.log("------------------------------");
-console.log("Actors: " + movie4.actors);
-console.log("Director: " + movie4.director);
+console.log("Actors: " + movieFour.actors);
+console.log("Director: " + movieFour.director);
 console.log("------------------------------");
 
 
