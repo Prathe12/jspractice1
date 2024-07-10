@@ -1,13 +1,33 @@
 // A function with two arguments
 
 var showSum;
+var showProduct;
 
 showSum = function (number1, number2) {
 	var total = number1 + number2;
 	console.log("The sum is " + total);
 };
 
-showSum(30, 23);
+showSum = function (number1, number2) {
+	var total = number1 * number2;
+	console.log("The sum is " + total);
+};
+
+showProduct = function (number1, number2){
+	var total = number1 * number2;
+	console.log("the product is " + total);
+};
+
+showProduct = function (number1, number2, number3){
+	var total = number1 * number2 * number3;
+	console.log("the product is " + total);
+};
+showProduct = function (number1, number3){
+	var total = number1 / number3;
+	console.log("the product is " + total);
+};
+
+showSum(56, 74, 69);
 showSum(2.8, -5);
 
 
