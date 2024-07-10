@@ -14,8 +14,8 @@ console.log(book1Title + " by " + book1Author);
 console.log(book2Title + " by " + book2Author);
 console.log(book3Title + " by " + book3Author);
 
-var book4Title = "War and Peace";
-var book4Author = "Leo Tolstoy";
+var book4Title = "Titanic";
+var book4Author = "James Cameroon";
 console.log(book4Title + " by " + book4Author);
 
 
