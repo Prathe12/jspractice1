@@ -5,7 +5,7 @@ var locationName = "The Dungeon of Doom";
 
 console.log(playerName + " is in " + locationName);
 
-var health = "It is more dangerous";
+var health = "It is more dangerous,cureable and uncureable";
 var patientName = "Kenny";
 var problem = "cancer";
 console.log(patientName + "have a" + problem + "so" + health)
