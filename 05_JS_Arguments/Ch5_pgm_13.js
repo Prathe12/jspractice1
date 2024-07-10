@@ -4,6 +4,8 @@ var showPlayerInfo;
 var showPlayerName;
 var showPlayerHealth;
 var showPlayerPlace;
+var showLine;
+var showBlankLine;
 
 showPlayerName = function (playerName) {
     console.log(playerName);
@@ -15,6 +17,13 @@ showPlayerHealth = function (playerName, playerHealth) {
 
 showPlayerPlace = function (playerName, playerPlace) {
     console.log(playerName + " is in " + playerPlace);
+};
+showLine = function () {
+    console.log("----------------------------");
+};
+
+showBlankLine = function () {
+    console.log("");
 };
 
 showPlayerInfo = function (playerName, playerPlace, playerHealth) {
