@@ -29,8 +29,8 @@ let books = [
     { title: "The Odyssey", author: "Homer", year: -800 }
 ];
 
-for (let i = 0; i < books.length; i++) {
-    console.log(`Book ${i + 1} - Title: ${books[i].title}, Author: ${books[i].author}, Year: ${books[i].year}`);
+for (let a = 0; a < books.length; a++) {
+    console.log(`Book ${a + 1} - Title: ${books[a].title}, Author: ${books[a].author}, Year: ${books[a].year}`);
 }
 
 
