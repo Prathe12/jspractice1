@@ -2,12 +2,19 @@
 
 var getHelloTo;
 
+
 getHelloTo = function (name) {
-    return "Hello to " + name;
+    var template;
+    template = "Hello to {{name}}";
+    template = template.replace("{{name}}, name");
+    return template;
 };
 
-console.log(getHelloTo("Kandra"));
-console.log(getHelloTo("Dax"));                                         
+var response1 = getHelloTo("Alice");
+console.log(response1); 
+
+var response2 = getHelloTo("Bob");
+console.log(response2);                                        
 
 
 
