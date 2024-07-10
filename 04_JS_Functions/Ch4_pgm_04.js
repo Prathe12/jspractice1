@@ -7,6 +7,7 @@ sayHello = function () {
 };
 
 sayHello();
+sayHello();
 
 /* Further Adventures
  *
