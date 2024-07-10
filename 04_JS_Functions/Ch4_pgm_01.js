@@ -23,7 +23,7 @@ secondMovie = {
 console.log("Movie information for " + secondMovie.title);
 console.log("------------------------------");
 console.log("Actors: " + secondMovie.actors);
-console.log("Director: " + secondMovie2.director);
+console.log("Director: " + secondMovie.director);
 console.log("------------------------------");
 
 /* Further Adventures
