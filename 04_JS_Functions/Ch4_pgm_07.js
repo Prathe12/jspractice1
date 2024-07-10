@@ -1,8 +1,8 @@
 // Using the findTotal function to display a calculation
 
 var number1 = 1500;
-var number2 = 900;
-var number3 = 350;
+var number2 = 950;
+var number3 = 550;
 var result;
 var findTotal;
 
