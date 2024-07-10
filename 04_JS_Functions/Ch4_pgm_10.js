@@ -5,7 +5,7 @@ var showMovieInfo;
 var movie;
 var movie2 = {
     title: "Inception",
-    actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    actors: ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page", "Cillian Murphy"],
     directors: ["Christopher Nolan"]
 }
 
