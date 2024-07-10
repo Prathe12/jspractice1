@@ -14,7 +14,7 @@ player1.score = player1.score + 100;
 console.log(player1.name + " has scored " + player1.score);
 
 player2 = {
-	name : "Virat",
+	name : "Dhoni",
 	score : 100
 };
 console.log(player2.name + " has scored " + player2.score);
