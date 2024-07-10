@@ -6,10 +6,10 @@ book = {
     title : "The Hobbit"
 };
 console.log(book);
- secondBook = {
+ book2 = {
     title : "August 1914"
  };
- console.log(secondBook);
+ console.log(book2);
 
 
 /* Further Adventures
