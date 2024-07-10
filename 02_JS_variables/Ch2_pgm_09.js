@@ -9,7 +9,7 @@ var z5;
 var _999;
 var one39Steps;
 var $nope;
-var singlewordsonly;
+var singleWordsOnly;
 var yield;
 
 
