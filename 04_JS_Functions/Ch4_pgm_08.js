@@ -8,7 +8,7 @@ displayMenu = function () {
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 	console.log("(4) Download file");
-	console.log("(6) Logout");
+	console.log("(5) Logout");
 };
 
 displayMenu();
