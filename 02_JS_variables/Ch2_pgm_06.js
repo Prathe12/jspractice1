@@ -9,7 +9,7 @@ locationName = "Argentina";
 console.log(playerName + " is in " + locationName);
 
 var score;
-score = 100;
+score = 150;
 playerName = "Virat Kolhi";
 console.log(playerName + "hits the" + score);
 
