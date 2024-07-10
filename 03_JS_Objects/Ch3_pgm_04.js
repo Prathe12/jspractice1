@@ -9,7 +9,7 @@ book = {
     
     year: 1960
 };
-console.log(book);
+console.log();
 
 
 /* Further Adventures
