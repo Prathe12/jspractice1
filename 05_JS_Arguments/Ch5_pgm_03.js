@@ -3,10 +3,12 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: " + message + " - All is Well");
 };
 
-showMessage("It's full of stars!");
+showMessage("Life is a stage!");
+showMessage("Work hard");
+showMessage("Grow More");
 
 
 
