@@ -11,7 +11,7 @@ console.log(message);
 message = "hello" + "world!";
 console.log(message);
 
-message = "JavaScript" + "is" + "fun";
+message = "JavaScript" + "is" + "full" + "of" + "joy";
 console.log(message);
 
 
