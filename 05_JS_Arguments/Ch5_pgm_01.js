@@ -3,7 +3,7 @@
 var message;
 var showMessage;
 
-message = "It's full of stars!";
+message = "The world is full of Suspenses!";
 
 showMessage = function () {
 	console.log(message);
