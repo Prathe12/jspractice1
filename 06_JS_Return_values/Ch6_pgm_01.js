@@ -2,15 +2,20 @@
 
 var getMessage;
 var response;
+var message;
 
 getMessage = function () {
     return "I’m going on an adventure!";
+};
+message = function () {
+    return "It is very trilling.";
 };
 
 response = getMessage();
 
 console.log(response);
-
+response = message();
+console.log(response);
 
 
 /* Further Adventures
