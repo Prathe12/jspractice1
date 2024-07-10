@@ -12,11 +12,11 @@ console.log(book.title);
 console.log(book.author);
 console.log(book);
 
-secondBook = {
+book2 = {
 	title : "Divine Comedy",
 	author : "Dante"
 };
-console.log(secondBook);
+console.log(book2);
 
 
 
