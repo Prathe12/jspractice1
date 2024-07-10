@@ -10,9 +10,9 @@ book = {
 
 console.log(book);
 book2 = {
-    title : "Romeo and Juliet",
+    title : "Richard II",
     author : "William Shakespeare",
-    published : 1597
+    published : 1595
 };
 console.log(book2);
 
