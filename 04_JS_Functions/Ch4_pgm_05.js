@@ -15,8 +15,8 @@ displayMenu = function () {
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
 };
-findTotal();
-displayMenu();
+findtotal();
+displaymenu();
 
 
 /* Further Adventures
