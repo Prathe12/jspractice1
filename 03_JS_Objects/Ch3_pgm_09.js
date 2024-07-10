@@ -16,12 +16,12 @@ book2 = {
 console.log(book1.title + " by " + book1.author);
 console.log(book2.title + " by " + book2.author);
 
-book3 = {
+bookThird = {
 	title : "Shape of things to come",
 	author : "H.G Wells"
 	
 };
-console.log(book3);
+console.log(bookThird);
 
 /* Further Adventures
  *
