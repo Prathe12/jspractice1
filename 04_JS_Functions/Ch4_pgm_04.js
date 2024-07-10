@@ -6,7 +6,7 @@ sayHello = function () {
     console.log("Hello World!");
 };
 
-sayHello();
+
 sayHello();
 
 /* Further Adventures
