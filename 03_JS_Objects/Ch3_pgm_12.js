@@ -9,13 +9,13 @@ var post = {
 };
 console.log(post.id , post.title + " by " + post.author);
 
-var secondPost = {
+var post2 = {
 	id : 2,
 	title : "Bunch of old letters",
 	author : "Jawahar Lal Nehru"
 };
 
-console.log(secondPost.id , secondPost.title + " by " + secondPost.author);
+console.log(post2.id , post2.title + " by " + post2.author);
 
 
 
