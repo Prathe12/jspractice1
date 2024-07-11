@@ -12,6 +12,10 @@ var getPlayerPlace = function (playerName, playerPlace) {
     return playerName + " is in " + playerPlace;
 };
 
+var getPlayerItems = function(playerName, playerItems){
+    return playerName + " bought " + playerItems;
+};
+
 var getBorder = function () {
     return "================================";
 };
@@ -32,18 +36,21 @@ var getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 var player1 = {
     name: "Kandra",
     place: "The Dungeon of Doom",
-    health: 50
+    health: 50,
+    items: "A rusty key"
 };
 
 var player2 = {
     name: "Dax",
     place: "The Old Library",
-    health: 40
+    health: 40,
+    items: "A piece of cheese"
 };
 
 console.log(getPlayerInfo(player1.name, player1.place, player1.health));
 console.log(getPlayerInfo(player2.name, player2.place, player2.health));
-
+console.log(getPlayerItems(player1.name, player1.items));
+console.log(getPlayerItems(player2.name, player2.items));
 
 
 /* Further Adventures
