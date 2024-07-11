@@ -7,11 +7,18 @@ getPlayerName = function (playerName) {
     var design = "|" + playerName;
     console.log(name);
     console.log(design);
+    function getPlayerName(name) {
+        return '|\n| ' + name + '\n|';
+    };
 };
 
 getPlayerName("Kandra");
 getPlayerName("Kiki");
 getPlayerName("Mahesha");
+getPlayerName("Jahver");
+
+
+
 
 /* Further Adventures
  *
