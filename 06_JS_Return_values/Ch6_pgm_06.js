@@ -24,7 +24,10 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
 console.log(getMessage());
 console.log(getHelloTo("Dax"));
 console.log(getHelloTo("Abbas"));
-
+console.log(sum(1, 9));
+console.log(sum(56,44));
+console.log(totalCost(99, 800, 4));
+console.log(totalCost(150, 500, 8));
 
 /* Further Adventures
  *
