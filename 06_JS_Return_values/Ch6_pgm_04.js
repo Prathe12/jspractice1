@@ -12,6 +12,21 @@ var sum = add(50, 23);
 
 console.log(sum);
 
+var sum1 = add(10,20);
+console.log(sum1);
+
+var number1 = 30;
+var number2 = 70;
+var sum = add(number1, number2);
+console.log(" The sum of " + number1 + " and " + number2 + " is " + sum);
+
+var addThree = function(number1, number2, number3) {
+    var total = number1 + number2 + number3;
+    return total;
+};
+
+var sumThree = addThree(10, 20, 30);
+console.log(sumThree);
 
 
 /* Further Adventures
