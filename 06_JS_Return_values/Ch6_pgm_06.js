@@ -20,7 +20,10 @@ sum = function (number1, number2) {
 totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+console.log(getMessage());
+console.log(getHelloTo("Dax"));
+console.log(getHelloTo("Abbas"));
 
 
 /* Further Adventures
@@ -31,7 +34,7 @@ totalCost = function (callOutCharge, costPerHour, numberOfHours) {
  * However, the functions will now be
  * available for calling.
  *
- * 2) At the console prompt, type
+ * 2) At the console prompt, typet
  *    getMessage()
  *    and press enter.
  *
