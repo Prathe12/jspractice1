@@ -22,8 +22,30 @@ var displayQuestion = function (questionAndAnswer) {
     ],
     correctAnswer : "Paris"
   };
+  var question2 = {
+    question : "What is the capital of India?",
+    answers : [
+      "Kolkata",
+      "New Delhi",
+      "Mumbai",
+      "Hyderbad"
+    ],
+    correctAnswer : "New Delhi"
+  };
+  var question3 = {
+    question : "What is the capital of TamilNadu?",
+    answers : [
+      "Coimbatore",
+      "Erode",
+      "Chennai",
+      "Trichy"
+    ],
+    correctAnswer : "Chennai"
+  };
   
   displayQuestion(question1);
+  displayQuestion(question2);
+  displayQuestion(question3);
   
   
   
