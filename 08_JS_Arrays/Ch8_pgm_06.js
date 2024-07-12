@@ -3,10 +3,22 @@
 var items = [];
 var item = "The Pyramids";
 var removed;
+var item1 = "Eiffel Tower";
 
 items.push(item);
 items.push("The Grand Canyon");
 items.push("Bondi Beach");
+
+console.log(items);
+
+removed = items.pop();
+
+console.log(removed + " was removed");
+console.log(items.join(" and "));
+
+items.push(item1);
+items.push("The Marina Beach");
+items.push("Besant Nagar Beach");
 
 console.log(items);
 
