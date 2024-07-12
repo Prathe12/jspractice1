@@ -26,7 +26,12 @@ removed = items.pop();
 
 console.log(removed + " was removed");
 console.log(items.join(" and "));
+ 
 
+items[2] = "The Taj Mahal";
+console.log(items);
+items.push("The Great Wall of China");
+console.log(items);
 
 
 /* Further Adventures
