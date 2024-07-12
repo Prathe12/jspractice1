@@ -3,7 +3,10 @@
 var players;
 var showArguments;
 
-players = [ "Dax", "Jahver", "Kandra" ];
+players = [ "Dax", "Jahver", "Kandra", "Jhanvi", "Kushi" ];
+function showPlayer(){
+  console.log("players:")
+}
 
 showArguments = function (item, index, wholeArray) {
   console.log("Item: " + item);
@@ -12,7 +15,7 @@ showArguments = function (item, index, wholeArray) {
 };
 
 players.forEach(showArguments);
-
+showPlayer(players);
 
 /* Further Adventures
  *
