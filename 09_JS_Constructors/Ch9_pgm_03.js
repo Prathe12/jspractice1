@@ -27,6 +27,15 @@ planets.forEach(function (planet) {
     planet.showPlanet();
 });
 
+var planet = [
+    buildPlanet( "Earth", 3, "Living source"),
+    buildPlanet( "Venus", 2, "Hottest Planet"),
+];
+
+planet.forEach(function (planet){
+    planet.showPlanet();
+});
+
 
 
 /* Further Adventures
