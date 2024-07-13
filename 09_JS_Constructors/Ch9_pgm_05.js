@@ -10,11 +10,14 @@ var Planet = function (name, position, type) {
         var info = this.name + ": planet " + this.position;
         info +=  " - " + this.type;
         console.log(info);
-        console.log("Moons: " + this.moons.join(', ') + ".");
+        console.log("Moons: " + (this.moons.length > 0 ? this.moons.join(', ') : "No moons") + ".");
     };
   
     this.addMoon = function (moon) {
         this.moons.push(moon);
+    };
+    this.removeMoon = function () {
+        return this.moons.pop();
     };
 };
 
