@@ -1,7 +1,7 @@
 // Guess the random number
 
 var getGuesser = function () {
-    var secret = Math.floor(Math.random() * 10 + 1);
+    var secret = (30, 50);
   
     return function (userNumber) {
       if (userNumber === secret) {
@@ -13,7 +13,10 @@ var getGuesser = function () {
   };
   
   var guess = getGuesser();
-  
+  var between = function (min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+};
+  console.log();
   
   
   /* Further Adventures
