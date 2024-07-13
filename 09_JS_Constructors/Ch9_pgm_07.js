@@ -26,8 +26,39 @@ question1.addOption("Bordeaux");
 question1.addOption("F");
 question1.addOption("Paris");
 question1.addOption("Brussels");
+question1.addOption("Corsica");
 
 question1.showQuestion();
+
+var question2 = new QuizQuestion(
+    "What is the capital of India?",
+    "New Delhi"
+);
+
+question2.addOption("Mumbai");
+question2.addOption("Gujarat");
+question2.addOption("New Delhi");
+question2.addOption("Kolkata");
+question2.addOption("Rajasthan");
+
+question2.showQuestion();
+
+
+var question3 = new QuizQuestion(
+    "What is the capital of Japan?",
+    "Tokyo"
+);
+
+question3.addOption("Tokyo");
+question3.addOption("Shikoku");
+question3.addOption("Chubu");
+question3.addOption("Tohoku");
+question3.addOption("Hokkaido");
+
+question3.showQuestion();
+
+
+
 
 
 
