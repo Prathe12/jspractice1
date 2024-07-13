@@ -100,7 +100,29 @@ var spacer = {
   player1.items.push("a rusty key");
   
   showPlayerInfo(player1, "*");
+
+  player1.items.pop();
+  showPlayerInfo(player1, "*");
+
+  var showItem = function (player, itemNumber) {
+    if (itemNumber > 0 && itemNumber <= player.items.length) {
+      console.log("Item " + itemNumber + ": " + player.items[itemNumber - 1]);
+    } else {
+      console.log("Invalid item number");
+    }
+  };
   
+
+  showItem(player1, 1);
+  showItem(player1, 3);
+
+  var addItem = function (player, itemTitle) {
+    player.items.push(itemTitle);
+  };
+  
+  addItem(player1, "a silver shield");
+  showPlayerInfo(player1, "*");
+
   
   
   
