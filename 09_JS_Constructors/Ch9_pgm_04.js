@@ -13,8 +13,12 @@ var Planet = function (name, position, type) {
 };
 
 var planet = new Planet( "Jupiter", 5, "Gas Giant" );
+var planet = new Planet( "Mercury", 1, "Terrestrial");
 
 planet.showPlanet();
+
+
+
 
 
 
