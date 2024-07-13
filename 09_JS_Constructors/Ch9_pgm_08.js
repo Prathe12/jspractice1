@@ -29,6 +29,16 @@ var calEvent = new CalendarEvent(
 
 calEvent.showEvent();
 
+var calEvent2 = new CalendarEvent(
+    "Team Meeting",
+    "4/10/16",
+    "2.00pm",
+    "3.00pm"
+);
+
+
+calEvent2.showEvent();
+
 
 
 /* Further Adventures
