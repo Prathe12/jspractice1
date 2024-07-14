@@ -7,17 +7,20 @@ var getQuiz = function () {
         questions,
         next,
         getQuestion,
+        getHint,
         checkAnswer,
         submit;
       
     questions = [
       {
         question: "What is the highest mountain in the world?",
-        answer: "Everest"
+        answer: "Everest",
+        hint: "It's in the Himalayas. "
       },
       {
         question: "What is the highest mountain in Scotland?",
-        answer: "Ben Nevis"
+        answer: "Ben Nevis",
+        hint: "It's located near Fort William."
       }
     ];
     
@@ -32,7 +35,7 @@ var getQuiz = function () {
     
     getQuestion = function () {
       if (inPlay) {
-        return questions[qIndex].question;
+        return questions[qIndex].hint;
       } else {
         return "You have finished the quiz.";
       }
@@ -61,13 +64,23 @@ var getQuiz = function () {
     
     return {
       quizMe: getQuestion,
-      submit: submit
+      submit: submit,
+      helpMe: getHint
     };
   };
   
   var quiz = getQuiz();
+
+  console.log(quiz.quizMe()); 
+  console.log(quiz.submit("K2")); 
+
+  console.log(quiz.quizMe()); 
+  console.log(quiz.submit("Ben Nevis")); 
+  
+
   
   
+   
   
   /* Further Adventures
    *
