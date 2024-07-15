@@ -236,6 +236,15 @@ var getGame = function () {
   };
   
   var game = getGame();
+  game.go("direction");
+  game.go("south");
+  game.get();
+  game.go("north");
+  game.get();
+
+
+
+
   
   
   
