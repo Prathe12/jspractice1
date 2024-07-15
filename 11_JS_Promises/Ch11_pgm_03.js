@@ -23,7 +23,9 @@ const doPromise = new Promise((resolve, reject) => {
     .then(result => {
       console.log(result)
     })
-    .catch(error => console.log(error))
+    .catch(error => {
+      console.log(error)
+    })
 
 
 
