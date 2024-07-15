@@ -6,7 +6,7 @@ const doSomething = callback => {
     setTimeout(() => {
       const skills = ['HTML', 'CSS', 'JS']
       callback(false, skills)
-    }, 2000)
+    }, 3000)
   }
   
   doSomething((err, result) => {
