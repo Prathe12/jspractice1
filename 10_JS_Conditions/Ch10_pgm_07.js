@@ -65,7 +65,7 @@ var getQuiz = function () {
     return {
       quizMe: getQuestion,
       submit: submit,
-      helpMe: getHint
+      
     };
   };
   
