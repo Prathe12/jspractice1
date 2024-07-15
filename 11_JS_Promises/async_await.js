@@ -18,10 +18,8 @@
 
 
 const square = async function (n) {
-    return n * n
-  }
-  const value = await square(2)
-  console.log(value)
+  return n * n;
+};
 
 // 4
 
@@ -30,16 +28,15 @@ const square = async function (n) {
 
 // promise
 
-const url = 'https://restcountries.com/v2/all'
-fetch(url)
-  .then(response => response.json())
-  .then(data => {
-    console.log(data)
-  })
-  .catch(error => console.error(error))
+const main = async () => {
+  const value = await square(2);
+  console.log(value);  // Output: 4
+};
 
-
+main();
+const url = 'https://restcountries.com/v2/all';
 //  async and await
+
 
 const fetchData = async () => {
     try {
