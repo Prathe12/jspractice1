@@ -4,7 +4,7 @@ const doSomething = callback => {
     setTimeout(() => {
       const skills = ['HTML', 'CSS', 'JS']
       callback('It did not go well', skills)
-    }, 2000)
+    }, 4000)
   }
   
   const callback = (err, result) => {
